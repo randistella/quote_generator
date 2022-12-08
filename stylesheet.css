@@ -1,0 +1,21 @@
+@charset "UTF-8";
+* { box-sizing: border-box; }
+
+body { background-color: #000080;
+        color: #FFFFFF; 
+        padding: 1em;
+        height: 100px;
+        min-width: 850px;
+        max-width: 1200px;
+        padding-bottom: 105px;
+        text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#quoteDisplay {
+    font-family: sans-serif;
+    padding: 100px;
+}
