@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Quote Generator</title>
+  <title>Quote/Dog Generator</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="Quote generator" />
@@ -9,10 +9,16 @@
     <script src="gen.js" defer></script>
 </head>
 <body>
-  <h1>Quote Generator</h1>
+  <h1>Quote/Dog Generator</h1>
     <div id="quoteDisplay">
         <!-- Quotes will appear here -->
-    </div>
-    <button onclick="newQuote()">New quote</button>
+    </div><br>
+    <button onclick="newQuote()">New quote</button><br><br>
+    
+    <div>
+        <!-- Dog pics will appear here -->
+    <img src="dog_1.jpeg" id="dogDisplay" />
+    </div><br>
+    <button onclick="newDog()">New dog</button>
 </body>
 </html>
